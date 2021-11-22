@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#main{
+    
+    width: 100%;
+    height:700px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-brain-technology-code-digital-picture-image_912934.jpg');
+   /*  background-image: url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); */
+   /* https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg */
+   /* https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-technology-background-binary-computer-code-vector-design-image_458702.jpg */
+}

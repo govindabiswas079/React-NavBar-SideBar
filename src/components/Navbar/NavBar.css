@@ -1,0 +1,231 @@
+.setheader{
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+}
+.setheader.active{
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.425);
+    background-color: #ffffff;
+}
+.logo{
+    color: #000000;
+    line-height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+.NavBar{
+    float: right;
+}
+.NavBar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.NavBar ul li{
+    list-style: none;
+}
+.NavBar ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 60px;
+    margin:  3px 0;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000a6;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+.NavBar ul li a:hover{
+    color: #000000;
+    transition: all ease-in-out 0.2s;
+}
+.menu-toggle{
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle img{
+    width: 25px;
+}
+.NavBar.black{
+    background: #fff;
+}
+
+@media (max-width: 991px) {
+    .setheader {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .NavBar {
+        position: absolute;
+        width: 70%;
+        height: calc(100vh - 50px);
+        background: rgb(8, 5, 17);
+        top: 70px;
+        right: -100%;
+        transition: 0.5s;
+    }
+
+    .NavBar.active {
+        right: 0;
+    }
+
+    .NavBar ul {
+        display: block;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .NavBar ul li a {
+        text-align: justify;
+        color: #d1caca;
+    }
+
+    .NavBar ul li a:hover {
+        color: rgb(255, 255, 255);
+        transition: all ease 0.6s;
+    }
+}
+
+
+
+
+
+/* .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.header.active {
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.425);
+    background-color: #ffffff;
+}
+
+.header .logo {
+    color: rgb(76, 74, 206);
+    line-height: 70px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+.header .navbar {
+    float: right;
+}
+
+.header .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header .navbar ul li {
+    list-style: none;
+}
+
+.header .navbar ul li a {
+    line-height: 60px;
+    padding: 0px 10px;
+    color: #000000a8;
+    text-decoration: none;
+    display: block;
+    font-family: calibri;
+    font-weight: 900;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.6s ease-in-out;
+}
+
+.header .navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    transition: all ease 0.2s;
+}
+
+.menu-toggle {
+    color: #fff;
+    float: right;
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-toggle img {
+    width: 25px;
+}
+
+.navbar.black {
+    background: #fff;
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        width: 70%;
+        height: calc(100vh - 50px);
+        background: rgb(8, 5, 17);
+        top: 70px;
+        right: -100%;
+        transition: 0.5s;
+    }
+
+    .header .navbar.active {
+        right: 0;
+    }
+
+    .header .navbar ul {
+        display: block;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .header .navbar ul li a {
+        text-align: justify;
+        color: #d1caca;
+    }
+
+    .header .navbar ul li a:hover {
+        color: rgb(255, 255, 255);
+        transition: all ease 0.6s;
+    }
+} */
